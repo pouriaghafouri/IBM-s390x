@@ -29,5 +29,6 @@ main:
 	call	printf				# Call printf (using libc)
 
 	leave						# Restore r6 to r15 from stack
+ 	xgr	%r2, %r2
 	ret							# return (like jr $ra in MIPS)
 
