@@ -70,4 +70,5 @@ main:
 	print_hex				# Print r3 (now it's most significant 32bit of the result)
 
 	leave	0
+ 	xgr	%r2, %r2
 	ret
