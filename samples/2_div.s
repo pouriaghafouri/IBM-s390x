@@ -55,4 +55,5 @@ main:
 	print_long			# Print quotient (it is in r3 by default, second argument), remainder (it is in r4, third argument)
 
 	leave	0
+ 	xgr	%r2, %r2
 	ret
