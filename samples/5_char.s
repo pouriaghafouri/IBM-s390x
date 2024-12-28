@@ -74,4 +74,5 @@ print_loop:
 	print_char
 
 	leave	0
+ 	xgr	%r2, %r2
 	ret
