@@ -77,4 +77,5 @@ end:
 	call	printf
 	
 	leave	0
+ 	xgr	%r2, %r2
 	ret
